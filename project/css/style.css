@@ -1,0 +1,239 @@
+
+*:focus{
+       outline: none;
+}
+body{
+       align-content: center;
+       background-color:white;
+       font-family: 'Nunito';
+       opacity:92%;   
+       text-decoration: none;
+       font-size:16px;
+}
+
+.rectangle1 {
+       position:absolute; 
+       border-top-left-radius: 6px;
+       border-top-right-radius: 6px;
+       height: 55px;
+       width: 677px;
+       background-color: #5265e8;
+} 
+
+.cross{
+       margin-left:645px; 
+       top:20px;    
+       position: absolute;
+       background-color: #5265e8 ;
+       border:none;
+       cursor: pointer; 
+}
+ h1{
+       width: 677px;
+       height: 17px;
+       padding-top:5px;
+       font-size: 18px;
+       font-weight: 500;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.22;
+       letter-spacing: normal;
+       text-align: center;
+       color: #ffffff;
+}
+
+.rectangle {
+   
+       width: 1140px;
+       top: -20%;
+       left: 50%;
+       transform: translate(-50%, 50%);
+       border-bottom-left-radius: 5px;
+       border-bottom-right-radius: 5px;
+       height: 460px;
+       width: 677px;
+       position: relative;
+       box-shadow: 1px 15px 15px 0 gainsboro;
+}
+
+.search-box {
+       padding-top:81px;
+       left:22px; 
+       right:15px;
+       height:52px;
+       width:637px;
+}
+.search-btn{
+       position:absolute;
+       border:none;
+       color:grey;
+       width:48px;
+       height:46px;
+       border-radius:50%;
+       background:white;
+       margin-left:25px;
+       margin-top:1px;
+       cursor: pointer;
+}
+.search-btn img{
+       cursor:pointer; 
+       height:23px;
+}
+input {
+
+       width: 252px;
+       height: 18px;
+       font-family: 'Nunito';
+       font-size: 16px;
+       font-weight: normal;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.25;
+       letter-spacing: normal;
+       text-align: left;
+       color: #9195b1;
+       border:1px solid lightgrey;
+       outline:none;
+       border-radius: 50px;
+       width: 570px;
+       height: 45px;
+       text-decoration: none;
+       padding-left:55px; 
+ } 
+.search-txt {
+       position: absolute;
+       color:black;
+       transition:0.4s;
+       line-height:40px;
+       left:20px;
+}
+
+h2{
+       position: absolute;
+       padding-left:22px;
+       font-size:16px;
+       padding-bottom:50px;
+       color:#4a4a4a;
+       padding-top:10px;
+       font-weight:100px;
+}
+
+.rectangle p{
+       margin-top:100px;
+       margin-left:22px;
+       color:#4a4a4a;  
+}
+
+.serving{
+       border:none;
+       height:38px;
+       width:137px;
+       font-family: 'Nunito';
+       color:#9195b1;
+       background-color:transparent;
+}
+/*.serving:hover,
+.serving:active {
+       background-color:#5265e8;
+       border: none;
+       color: white;
+       text-decoration: none;
+       font-size:16px;
+       cursor: pointer;
+       height:35px;
+       width:137px;
+       border-radius: 20px;
+       text-decoration: none;
+ }*/
+.notServing{
+       text-align: center;
+       color:#9195b1;
+       font-size:15px;
+}
+
+.online{
+       color:#2eca17;
+       padding-right:30px;
+}
+.offline{
+       left:10px;
+       color:#9195b1;  
+       opacity:65%;
+}
+.offline:hover{
+       color:#9195b1;  
+       opacity:65%;
+}
+.account img{
+       border-radius:50%;
+       height:36px;
+       width:36px;
+       border: Inside, 1px ;
+       margin-left:17px;  
+} 
+tr:hover {  
+       color: #5265e8;
+       border:outset 1px;
+       border-radius:20px;
+       background-color:#ffff;
+       box-shadow: 0px 10px 30px 0px rgba(6, 16, 88, 0.07);
+       opacity:100%; 
+ }
+ tr:hover .serving {
+       height: 38px;
+       width: 137px;
+       text-align: center;
+       border: none;
+       border-radius: 20px;
+       color: #FFF;
+       text-decoration: none;
+       font-size: 16px;
+       background-color: #5265E8;
+}
+
+.vers1{
+       font-size: 16px;;
+}
+
+tr:hover .vers1 {
+       color: #fff; 
+       display: none;
+}
+
+
+.serving .vers2 { 
+       display: none; 
+       color: #fff; 
+}
+.serving .vers2 {
+       display: none;
+       border: none;
+}
+.serving:hover .vers1 {
+       display: none;
+    border: none;
+}
+
+tr:hover .vers2 {
+       display: inline;
+       border:none;
+}
+table {
+       width:98%;
+       height: 68%;
+       text-align:left;
+       color:#9195b1;
+       background-color:transparent; 
+       opacity: 92%;
+       padding-top:60px;
+       padding-left:15px;
+       padding-right:11px;
+       line-height: 2px;
+}
+ table tr td{
+       border-radius:50%;
+       padding-left: 11px; 
+}
+::placeholder{
+       color:#9195b1;
+}
