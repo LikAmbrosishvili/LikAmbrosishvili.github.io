@@ -1,0 +1,300 @@
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 646px){   
+    .rectangle {
+        width: 100%;
+       
+        top: -10%;
+        transform: translate(-50%, 10%);
+        height: 500px;   }
+        h1{
+            width: 100%;
+            height: 25px;
+            padding-top:10px;
+            font-size: 20px;
+            font-weight: 500;
+        
+            line-height: 1.42;
+         
+     }
+     .search-btn{
+        margin-top:5px;
+        width:5%;
+        height:6%;
+        margin-left:6%; 
+     
+ }
+ .search-btn img{
+     padding-top:5px;
+      
+ }
+     table {
+        width:98%;
+        height: 65%;
+        padding-top:9%;
+        padding-left:2%;
+        padding-right:0;
+        line-height: 0.5px;
+    }
+    table tr td{
+        padding-left: 0; 
+    }
+    
+    .online{
+        padding-right:0.1px;
+        padding-left:0.2px
+    }
+    .rectangle1 {
+        height: 15%;
+        width: 100%;   
+ } 
+  body{
+      padding-top:0%;
+      font-size:14px;}
+  input {
+
+    width: 80%;
+    height: 40px;
+    padding-left:10%; 
+} 
+.serving{
+    height:28px;
+    width:100px;
+  
+}
+tr:hover .serving {
+    height: 28px;
+    width: 100px;
+    font-size: 14px;
+}
+.notServing{
+    font-size:14px;
+}
+h2{
+  padding-top:5px;
+}
+.search-box {
+    padding-top:20%;
+     height:52px;
+}
+.cross{
+    padding-top:2%;
+}
+.vers1{
+    font-size:14px;
+}
+}
+@media only screen and (max-width: 487px){
+   
+   
+    .rectangle {
+        width: 100%;
+        top: -5%;
+        transform: translate(-50%, 5%);
+        height: 600px;
+    }
+    .ver1, .vers2{
+        padding-left:0;
+    }
+    h1{
+        width: 100%;
+        height: 20px;
+        padding-top:10px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.2;   
+    }
+    .search-btn{
+        margin-top:4px;
+        width:5%;
+        height:6%;
+        margin-left:7%; 
+    
+}
+    .search-btn img{
+        padding-top:5px;  
+    }
+
+    table {
+        
+        width:98%;
+        height: 65%;
+        padding-top:9%;
+        padding-left:0;
+        padding-right:0;
+        line-height: 1.0px;
+       
+    }
+    table tr td{
+        padding-left: 1px; 
+        text-align:left;
+       
+    }
+
+    .online{
+        padding-right:0.1px;
+        padding-left:0.2px;
+    }
+    .rectangle1 {
+        height: 10%;
+        width: 100%;   
+} 
+body{
+    padding-top:0%;
+    font-size:12px;
+    align-content: left;}
+input {
+
+    width: 80%;
+    height: 40px;
+    padding-left:10%; 
+} 
+.serving{
+    height:28px;
+    width:70px;
+    text-align:center;
+    padding-left:0.2px;
+}
+tr:hover .serving {
+    height: 28px;
+    width: 70px;
+    font-size: 12px;
+    padding-left:0.2px;
+    text-align:center;
+   
+}
+.notServing{
+    font-size:12px;
+    padding-left:0.2px;
+    text-align:center;
+}
+h2{
+    padding-top:0;
+}
+.search-box {
+    padding-top:80px;
+    height:52px;
+}
+.cross{
+    padding-top:5px;
+    margin-left:89%; 
+}
+.account img{
+    border-radius:50%;
+    width:36px;
+    border: Inside, 1px ;
+    margin-left:2px;  
+}
+
+.vers1{
+    font-size:12px;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 300px){
+   
+   
+    .rectangle {
+        width: 100%;
+        top: -5%;
+        transform: translate(-50%, 5%);
+        height: 90%;
+    }
+    h1{
+        width: 100%;
+        height: 20px;
+        padding-top:10px;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 1.2;   
+    }
+    .search-btn{
+        margin-top:5px;
+        width:5%;
+        height:6%;
+        margin-left:7%; 
+    
+}
+    .search-btn img{
+        padding-top:5px;  
+    }
+
+    table {
+    
+        width:98%;
+        height: 65%;
+        padding-top:9%;
+        padding-left:0;
+        padding-right:0;
+        line-height: 1.5px;
+    }
+    table tr td{
+        margin-top:2px;
+        padding-left: 1px; 
+        text-align:left;
+    }
+    .vers1{
+        font-size:12px;
+    }
+    .online{
+        padding-right:0.1px;
+        padding-left:0.1px;
+    }
+    .rectangle1 {
+        height: 10%;
+        width: 100%;   
+} 
+body{
+    padding-top:0%;
+    font-size:15px;
+    align-content: center;}
+input {
+
+    width: 80%;
+    height: 40px;
+    padding-left:25; 
+} 
+.serving{
+    height:28px;
+    width:100px;
+
+}
+tr:hover .serving {
+    height: 28px;
+    width: 100px;
+    font-size: 17px;
+}
+.notServing{
+    font-size:15px;
+}
+h2{
+    padding-top:0;
+}
+.search-box {
+    padding-top:90px;
+    height:52px;
+}
+.cross{
+    padding-top:5px;
+    margin-left:80%; 
+}
+.account img{
+    border-radius:50%;
+    height:30px;
+    width:30px;
+    border: Inside, 1px ;
+    margin-left:2px;  
+}
+ td{
+    display:block;
+    margin-left:25px;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+}
